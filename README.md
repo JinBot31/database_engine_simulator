@@ -1,4 +1,4 @@
-# Motor de Base de Datos — Interfaz web (UI) y Motor Simulado
+# Motor de Base de Datos — Interfaz web (UI)
 
 Este proyecto es una pequeña simulación de un motor de base de datos escrita en Java y empacada con Spring Boot, junto con una interfaz web estática (HTML/JS) que actúa como fachada para realizar operaciones sobre tablas, índices y registros.
 
