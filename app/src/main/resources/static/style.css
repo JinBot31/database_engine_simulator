@@ -1,0 +1,4 @@
+body { background: #f6f9fc; }
+.card { box-shadow: 0 6px 18px rgba(20,40,80,0.06); }
+#tablesList { max-height: 60vh; overflow: auto; }
+#fieldsPreview .badge { font-size: 0.9rem; }
