@@ -111,7 +111,7 @@ curl -X POST 'http://localhost:3000/api/tables/usuarios/records' \
 
 ## Interfaz web (cómo usarla)
 
-1. Abre `http://localhost:<puerto>/` en tu navegador (ej: `http://localhost:3000/`).
+1. Abre `http://localhost:<puerto>/` en tu navegador (ej: `http://localhost:5500/`).
 2. En la columna izquierda puedes crear tablas, seleccionar una ya existente o usar `Poblar ejemplo` para cargar una tabla `usuarios` con filas de ejemplo.
 3. Al seleccionar una tabla, verás la lista de registros. Puedes:
    - Insertar: en la sección inferior selecciona un campo del desplegable o pulsa `Nuevo` para crear un campo y añade su valor; pulsa `Agregar campo` para construir el registro, y luego `Insertar`.
@@ -144,10 +144,3 @@ El motor serializa su estado en un archivo (por ejemplo `mibasedatos.db`) usando
 - Si el frontend no muestra campos en el select, prueba a `Poblar ejemplo` o crear registros para que el motor detecte campos existentes.
 
 ---
-
-## Siguientes mejoras (opcional)
-
-- Reemplazar prompts/alerts por modales y toasts (UX más moderno).
-- Implementar búsqueda por índice directamente en la UI.
-- Añadir tests unitarios/integración para el `BDService` y el `DataBaseEngine`.
-- Mejorar la persistencia (usar JSON o una base de datos embebida en lugar de serialización binaria).
